@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:text="Choose Your Semester"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CGPA Calculator"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/input1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="1st Sem Sgpa"
+            android:textColorHint="#888888"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:padding="15dp"
+            app:cornerRadius="15dp"
+            android:backgroundTint="#EEEEEE"
+            android:background="@drawable/et_style"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <EditText
+            android:id="@+id/input2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="2st Sem Sgpa"
+            android:textColorHint="#888888"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:backgroundTint="#EEEEEE"
+            android:background="@drawable/et_style"
+            android:padding="15dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+        <EditText
+            android:id="@+id/input3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="3st Sem Sgpa"
+            android:textColorHint="#888888"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:backgroundTint="#EEEEEE"
+            android:background="@drawable/et_style"
+            android:padding="15dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+        <EditText
+            android:id="@+id/input4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="4st Sem Sgpa"
+            android:textColorHint="#888888"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:backgroundTint="#EEEEEE"
+            android:background="@drawable/et_style"
+            android:padding="15dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+        <EditText
+            android:id="@+id/input5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="5st Sem Sgpa"
+            android:textColorHint="#888888"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:backgroundTint="#EEEEEE"
+            android:background="@drawable/et_style"
+            android:padding="15dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+        <EditText
+            android:id="@+id/input6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="6st Sem Sgpa"
+            android:textColorHint="#888888"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:backgroundTint="#EEEEEE"
+            android:background="@drawable/et_style"
+            android:padding="15dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+        <EditText
+            android:id="@+id/input7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="7st Sem Sgpa"
+            android:textColorHint="#888888"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:backgroundTint="#EEEEEE"
+            android:background="@drawable/et_style"
+            android:padding="15dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+        <EditText
+            android:id="@+id/input8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="8st Sem Sgpa"
+            android:textColorHint="#888888"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:backgroundTint="#EEEEEE"
+            android:background="@drawable/et_style"
+            android:padding="15dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/calculate"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_margin="12dp"
+            android:layout_gravity="center"
+            android:text="Calculate CGPA"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:backgroundTint="#2196F3"
+            android:background="@drawable/et_style"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Output"
+            android:textSize="23dp"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

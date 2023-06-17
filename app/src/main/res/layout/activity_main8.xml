@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fifth Semester SGPA"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/input15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18XX51"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:padding="15dp"
+                app:cornerRadius="15dp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <EditText
+                android:id="@+id/input25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18XX52"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <EditText
+                android:id="@+id/input35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18XX53"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <EditText
+                android:id="@+id/input45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18XX54"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <EditText
+                android:id="@+id/input55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18XX55"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <EditText
+                android:id="@+id/input65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18XX56"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <EditText
+                android:id="@+id/input75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18XXL57"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <EditText
+                android:id="@+id/input85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18XXL58"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <EditText
+                android:id="@+id/input95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="Environmental studies"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/calculate5"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_margin="12dp"
+                android:layout_gravity="center"
+                android:text="Calculate SGPA"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:backgroundTint="#2196F3"
+                android:background="@drawable/et_style"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <TextView
+                android:id="@+id/output5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Output"
+                android:textSize="23dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

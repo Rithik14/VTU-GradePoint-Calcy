@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Your Semester"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:padding="16dp" />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            app:cornerRadius="20dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_margin="12dp"
+            android:id="@+id/button_sem1p"
+            android:text="1st and 2nd sem(Physics)"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            app:cornerRadius="20dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_margin="12dp"
+            android:id="@+id/button_sem1c"
+            android:text="1st and 2nd sem(Chemistry)"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            app:cornerRadius="20dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_margin="12dp"
+            android:id="@+id/button_sem3"
+            android:text="3rd sem(All Branch)"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            app:cornerRadius="20dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_margin="12dp"
+            android:id="@+id/button_sem4"
+            android:text="4th sem(All Branch)"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            app:cornerRadius="20dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_margin="12dp"
+            android:id="@+id/button_sem5"
+            android:text="5th Sem(All Branch)"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            app:cornerRadius="20dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_margin="12dp"
+            android:id="@+id/button_sem6"
+            android:text="6th Sem(All branch)"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            app:cornerRadius="20dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_margin="12dp"
+            android:id="@+id/button_sem7"
+            android:text="7th Sem(ISE,CSE)"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            app:cornerRadius="20dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_margin="12dp"
+            android:id="@+id/button_sem8"
+            android:text="8th Sem(All branch)"
+            />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

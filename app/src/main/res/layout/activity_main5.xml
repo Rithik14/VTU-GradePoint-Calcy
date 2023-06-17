@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1st and 2nd Semester Chemistry Cycle"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/input1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18MAT11/21"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:padding="15dp"
+                app:cornerRadius="15dp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <EditText
+                android:id="@+id/input2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18CHE12/22"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <EditText
+                android:id="@+id/input3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18CPS13/23"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <EditText
+                android:id="@+id/input4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18ELN14/24"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <EditText
+                android:id="@+id/input5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18ME15/25"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <EditText
+                android:id="@+id/input6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18CHEL16/26"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <EditText
+                android:id="@+id/input7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18CPL17/27"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <EditText
+                android:id="@+id/input8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="18EGH18/28(ENGLISH)"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:backgroundTint="#EEEEEE"
+                android:background="@drawable/et_style"
+                android:padding="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/calculate"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_margin="12dp"
+                android:layout_gravity="center"
+                android:text="Calculate SGPA"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:backgroundTint="#2196F3"
+                android:background="@drawable/et_style"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <TextView
+                android:id="@+id/output"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Output"
+                android:textSize="23dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
