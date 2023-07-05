@@ -1,16 +1,11 @@
 package com.example.studentcalcy;
-
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.button.MaterialButton;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
 public class MainActivity2 extends AppCompatActivity implements View.OnClickListener{
-
     MaterialButton buttonsem1p,buttonsem1c,buttonsem3,buttonsem4,buttonsem5,buttonsem6,buttonsem7,buttonsem8;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,12 +19,10 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         assignId(buttonsem7,R.id.button_sem7);
         assignId(buttonsem8,R.id.button_sem8);
     }
-
     void assignId(MaterialButton btn,int id){
         btn = findViewById(id);
         btn.setOnClickListener(this);
     }
-
     @Override
     public void onClick(View view) {
         MaterialButton button =(MaterialButton) view;
@@ -42,7 +35,6 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         Intent sem6 = new Intent(MainActivity2.this,MainActivity9.class);
         Intent sem7 = new Intent(MainActivity2.this,MainActivity10.class);
         Intent sem8 = new Intent(MainActivity2.this,MainActivity11.class);
-
         if(buttonText.equals("1st and 2nd sem(Physics)")){
             startActivity(sem1p);
         }

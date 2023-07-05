@@ -5,9 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity4">
-
-
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -173,8 +170,6 @@
                 android:textAlignment="center"
                 android:text="Output"
                 android:textSize="23dp"/>
-
         </LinearLayout>
-
     </ScrollView>
 </RelativeLayout>
