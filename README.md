@@ -7,7 +7,7 @@ user's academic performance and progress. Additionally, the app has a normal cal
 function that can be used for basic arithmetic operations. VTU-grade point calcy is a userfriendly and reliable app that can help students to plan their studies and achieve their 
 academic goals.</p>
 <h2>Demo</h2>
-<img style="width:45%" src="Demo.gif" />
+<img style="width:55%" src="Demo.gif" />
 <br>
 <h1>What is SGPA?</h1> 
 <p>SGPA is the abbreviated form of Sessional Grade Point Average/Semester End Grade Point Average. Before delving into the discussion of SGPA and CGPA, let’s first understand what these two mean. To begin with, the marks we score in our schools or colleges can be calculated in different ways. One of these ways includes SGPA. It is the grade point average that is calculated at the end of an academic session like a year at school or a semester at college. First, adding the grade points of all the subjects in an academic year or session are collected together and then their average is calculated which is referred to as the SGPA for that particular year or session.</p>
