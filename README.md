@@ -4,7 +4,7 @@ University (VTU) to calculate their grade point average (GPA) for any course. Th
 allows users to enter their marks for each subject and displays the corresponding grades 
 and GPA according to the VTU grading system. The app also provides a summary of the 
 user's academic performance and progress. Additionally, the app has a normal calculator 
-function that can be used for basic arithmetic operations. VTU-grade point calcy is a userfriendly and reliable app that can help students to plan their studies and achieve their 
+function that can be used for basic arithmetic operations. VTU-grade point calcy is a user friendly and reliable app that can help students to plan their studies and achieve their 
 academic goals.</p>
 <h2>Demo</h2>
 <img style="width:55%" src="Demo.gif" />
